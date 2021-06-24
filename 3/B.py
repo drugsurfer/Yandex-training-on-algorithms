@@ -1,0 +1,1 @@
+print(*sorted(set([int(i) for i in input().split()]).intersection(set([int(i) for i in input().split()]))))
